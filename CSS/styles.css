@@ -1,0 +1,30 @@
+body{
+    box-sizing: border-box;
+    background-image: linear-gradient(to right top, #eafaf1, #ebf9f3, #edf9f5, #eff8f6, #f1f7f6, #f1f7f6, #f1f6f6, #f1f6f6, #eff6f6, #ecf6f5, #eaf6f4, #e8f6f3);
+}
+.navbar{
+    background-color: #223141;
+    position: fixed;
+}
+#text{
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+.brand{
+    color: #0a6fe9;
+    font-family: 'Oswald', sans-serif;
+}
+#active{
+    color: #D35400;
+}
+.nav-link{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+#links{
+    color: white;
+}
+#links:hover{
+    background-color: #D35400;
+}
