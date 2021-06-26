@@ -4,7 +4,6 @@ body{
 }
 .navbar{
     background-color: #223141;
-    position: fixed;
 }
 #text{
     font-family: 'Oswald', sans-serif;
@@ -27,4 +26,83 @@ body{
 }
 #links:hover{
     background-color: #D35400;
+}
+
+/*hero section*/
+.hero{
+    height: 100vh;
+    width: 100%;
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../Images/hero/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hero-header{
+    margin-top: 100px;
+}
+.hero-header h2{
+    color: white;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+.hero-head{
+    color:#D35400
+}
+.more{
+    margin-top: 20px;
+}
+#btns{
+    background-color: #D35400;
+    border: 5px solid #D35400;
+}
+#btns:hover{
+    color: white;
+    background-color: black;
+    border: 5px solid black;
+}
+.scroll-down {
+    position: absolute;
+    top: 40vh;
+    left: 50%;
+    margin-left: -16px;
+    -webkit-animation: bounce 2s infinite 2s;
+    animation: bounce 2s infinite 2s;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  @keyframes bounce {
+    0%,
+    100%,
+    20%,
+    50%,
+    80% {
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -webkit-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+    60% {
+      -webkit-transform: translateY(-5px);
+      -z-index:1;ms-transform: translateY(-5px);
+      transform: translateY(-5px);
+  
+    }
+  }
+@media screen and (min-width:480px) and (max-width: 767px){
+    .scroll-down{
+        top: 10vh;
+    }
+    .hero-header h2{
+        font-size: 40px;
+    }
 }
