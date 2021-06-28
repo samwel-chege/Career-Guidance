@@ -1,14 +1,34 @@
 #intro, #table{
     background-color: #223141;
+    padding-top: 2%;
+    
 }
 .introp, #table{
     color: #D35400;
     font-size: large;
     padding: 3% 5%;
 }
+#navi{
+    background-color: #223141;
+    margin-bottom: 1%;
+  
+}
 
 hr {
     height: 2px;
     border-width: 0;
     background-color: whitesmoke;
+}
+
+.btn {
+      background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
 }
