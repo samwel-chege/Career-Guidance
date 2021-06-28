@@ -52,7 +52,7 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 .hero-head{
-    color:#D35400
+    color:#D35400;
 }
 .more{
     margin-top: 20px;
@@ -95,7 +95,7 @@ body{
       -webkit-transform: translateY(-5px);
       -z-index:1;ms-transform: translateY(-5px);
       transform: translateY(-5px);
-  
+
     }
   }
 @media screen and (min-width:480px) and (max-width: 767px){
