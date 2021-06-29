@@ -68,7 +68,7 @@ body{
 }
 .scroll-down {
     position: absolute;
-    top: 40vh;
+    top: 30vh;
     left: 50%;
     margin-left: -16px;
     -webkit-animation: bounce 2s infinite 2s;
@@ -98,11 +98,48 @@ body{
 
     }
   }
+
+  #about {
+  background-image: linear-gradient(to right top, #E5E7E9, #E1E4E6, #DDE1E3, #D9DEDF, #D5DBDB);
+  padding-bottom: 30px;
+}
+
+.who {
+  text-align: center;
+  padding-top: 8%;
+  color: #223141;
+  font-weight: 900;
+  font-family: "Oswald", sans-serif;
+}
+
+.say {
+  margin-top: 15px;
+}
+
+.wassup {
+  padding-bottom: 5%;
+  color: black;
+  text-align: center;
+}
+
+.login {
+  margin-left: 45%;
+}
+
+.guide{
+  color: #D35400;
+  font-weight: 900;
+  font-family: "Oswald", sans-serif;
+}
+
 @media screen and (min-width:480px) and (max-width: 767px){
     .scroll-down{
         top: 10vh;
     }
     .hero-header h2{
         font-size: 40px;
+    }
+    .login {
+      margin-left: 40%;
     }
 }
