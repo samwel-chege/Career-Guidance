@@ -1,4 +1,78 @@
+body{
+  background-image: linear-gradient(to right top, #eafaf1, #ebf9f3, #edf9f5, #eff8f6, #f1f7f6, #f1f7f6, #f1f6f6, #f1f6f6, #eff6f6, #ecf6f5, #eaf6f4, #e8f6f3);
+}
+#table{
+  margin-top: 30px;
+  
+}
+ #table{
+  color: #D35400;
+  font-size: large;
+}
+#navi{
+  background-color: #223141;
+  margin-bottom: 1%;
 
+}
+
+hr {
+  height: 2px;
+  border-width: 0;
+  background-color: whitesmoke;
+}
+
+.btn {
+    background-color: #ddd;
+border: none;
+color: black;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 16px;
+}
+#courses1, #courses2, #courses3, #courses4, #courses5, #courses6{
+  display: none;
+}
+.btn:hover{
+  color: #D35400;
+}
+.introd{
+  background-image: linear-gradient(to right top, #eafaf1, #ebf9f3, #edf9f5, #eff8f6, #f1f7f6, #f1f7f6, #f1f6f6, #f1f6f6, #eff6f6, #ecf6f5, #eaf6f4, #e8f6f3);
+}
+.fluid p{
+   color: black;
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+   font-size: 17px;
+   margin-top: 10px;
+}
+.header h2{
+  margin-top: 15px;
+  text-transform: uppercase;
+  color: #223141;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 800;
+}
+.h{
+  color: #D35400;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.mycourse{
+ background-color: #112D42;
+ margin-left: 40px;
+ margin-right: 40px;
+ padding-top: 20px;
+ padding-bottom: 40px;
+}
+#text, #links{
+  color: #D35400;
+}
 #contact {
   background: url(pexels-photo-2383010.jpeg) no-repeat;
   background-size: cover;
@@ -8,6 +82,7 @@
   align-items: center;
   min-height: 100vh;
   background: #112D42;
+  margin-top: 20px;
 }
 #contact::before {
   content: '';
@@ -183,150 +258,3 @@ padding: 12px;
 {
   background: #0D948D;
 }
-body{
-    box-sizing: border-box;
-    background-image: linear-gradient(to right top, #eafaf1, #ebf9f3, #edf9f5, #eff8f6, #f1f7f6, #f1f7f6, #f1f6f6, #f1f6f6, #eff6f6, #ecf6f5, #eaf6f4, #e8f6f3);
-}
-.navbar{
-    background-color: #223141;
-}
-#text{
-    font-family: 'Oswald', sans-serif;
-    text-decoration: none;
-    color: white;
-}
-.brand{
-    color: #0a6fe9;
-    font-family: 'Oswald', sans-serif;
-}
-#active{
-    color: #D35400;
-}
-.nav-link{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-}
-#links{
-    color: white;
-}
-#links:hover{
-    background-color: #D35400;
-}
-
-/*hero section*/
-.hero{
-    height: 100vh;
-    width: 100%;
-    background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url(../Images/hero/1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-.hero-header{
-    margin-top: 100px;
-}
-.hero-header h2{
-    color: white;
-    font-size: 50px;
-    font-family: 'Oswald', sans-serif;
-}
-.hero-head{
-    color:#D35400;
-}
-.more{
-    margin-top: 20px;
-}
-#btns{
-    background-color: #D35400;
-    border: 5px solid #D35400;
-}
-#btns:hover{
-    color: white;
-    background-color: black;
-    border: 5px solid black;
-}
-.scroll-down {
-    position: absolute;
-    top: 30vh;
-    left: 50%;
-    margin-left: -16px;
-    -webkit-animation: bounce 2s infinite 2s;
-    animation: bounce 2s infinite 2s;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
-  }
-  @keyframes bounce {
-    0%,
-    100%,
-    20%,
-    50%,
-    80% {
-      -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-      transform: translateY(0);
-    }
-    40% {
-      -webkit-transform: translateY(-10px);
-      -ms-transform: translateY(-10px);
-      transform: translateY(-10px);
-    }
-    60% {
-      -webkit-transform: translateY(-5px);
-      -z-index:1;ms-transform: translateY(-5px);
-      transform: translateY(-5px);
-
-    }
-  }
-
-  #about {
-  background-image: linear-gradient(to right top, #E5E7E9, #E1E4E6, #DDE1E3, #D9DEDF, #D5DBDB);
-  padding-bottom: 30px;
-}
-
-.who {
-  text-align: center;
-  padding-top: 8%;
-  color: #223141;
-  font-weight: 900;
-  font-family: "Oswald", sans-serif;
-}
-
-.say {
-  margin-top: 15px;
-}
-
-.wassup {
-  padding-bottom: 5%;
-  color: black;
-  text-align: center;
-}
-
-.login {
-  margin-left: 45%;
-}
-
-.guide{
-  color: #D35400;
-  font-weight: 900;
-  font-family: "Oswald", sans-serif;
-}
-
-@media screen and (min-width:480px) and (max-width: 767px){
-    .scroll-down{
-        top: 10vh;
-    }
-    .hero-header h2{
-        font-size: 40px;
-    }
-    .login {
-      margin-left: 40%;
-    }
-}
-
-
