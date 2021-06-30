@@ -22,10 +22,12 @@
     });
     
  });*/
+
  $(document).ready(function(){
      $("h3#one").click(function(q){
          q.preventDefault();
-         $("#courses1").toggle();
+         $("#courses1").show();
+         alert("one")
      });
  });
  $(document).ready(function(){
@@ -58,4 +60,3 @@ $(document).ready(function(){
         $("#courses6").toggle();
     });
 });
- 
