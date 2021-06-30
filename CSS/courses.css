@@ -31,10 +31,7 @@ body{
     background-color: #C7B6B6;
     margin-top: 20px;
 }
-#uno {
-    background-color: #C7B6B6;
-    margin-top: 20px;
-}
+
 #alpha {
     background-color: #C7B6B6 ;
     margin-top: 20px;
@@ -94,4 +91,10 @@ body{
 }
 #cert{
     color: #C7B6B6;
+}
+#economics {
+    display: none;
+}
+#product-design {
+    display: none;
 }
