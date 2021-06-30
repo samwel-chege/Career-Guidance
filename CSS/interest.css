@@ -30,10 +30,24 @@ text-align: center;
 text-decoration: none;
 display: inline-block;
 margin: 4px 2px;
-cursor: pointer;
 border-radius: 16px;
 }
-#courses1, #courses2, #courses3, #courses4, #courses5, #courses6{
+#courses1{
+  display: none;
+}
+ #courses2{
+  display: none;
+ }
+  #courses3{
+    display: none;
+  }
+   #courses4{
+    display: none;
+   }
+    #courses5{
+      display: none;
+    }
+     #courses6{
   display: none;
 }
 .btn:hover{
@@ -85,7 +99,6 @@ border-radius: 16px;
   margin-top: 20px;
 }
 #contact::before {
-  content: '';
   position: absolute;
   top: 0;
   left: 0;
