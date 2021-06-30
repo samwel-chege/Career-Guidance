@@ -1,5 +1,7 @@
 body{
   background-image: linear-gradient(to right top, #eafaf1, #ebf9f3, #edf9f5, #eff8f6, #f1f7f6, #f1f7f6, #f1f6f6, #f1f6f6, #eff6f6, #ecf6f5, #eaf6f4, #e8f6f3);
+  box-sizing: border-box;
+  background-image: linear-gradient(to right top, #eafaf1, #ebf9f3, #edf9f5, #eff8f6, #f1f7f6, #f1f7f6, #f1f6f6, #f1f6f6, #eff6f6, #ecf6f5, #eaf6f4, #e8f6f3);
 }
 #table{
   margin-top: 30px;
@@ -86,6 +88,74 @@ border-radius: 16px;
 }
 #text, #links{
   color: #D35400;
+}
+#IT{
+display: none;
+}
+#BA{
+  display: none;
+}
+#LA{
+  display: none;
+}
+body{
+  box-sizing: border-box;
+  background-image: linear-gradient(to right top, #eafaf1, #ebf9f3, #edf9f5, #eff8f6, #f1f7f6, #f1f7f6, #f1f6f6, #f1f6f6, #eff6f6, #ecf6f5, #eaf6f4, #e8f6f3);
+}
+.navbar{
+  background-color: #223141;
+}
+#text{
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  color: white;
+}
+.brand{
+  color: #0a6fe9;
+  font-family: 'Oswald', sans-serif;
+}
+#active{
+  color: #D35400;
+}
+.nav-link{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+#links{
+  color: white;
+}
+#links:hover{
+  background-color: #D35400;
+}
+
+#start{
+  background-color: #C7B6B6 ;
+  margin-top: 20px;
+}
+.card-header{
+  color: #223141;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+#specific{
+  color: #D35400;
+}
+.card-title{
+  font-weight: 800;
+}
+#second{
+  background-color: #D5DBDB;
+  margin-top: 20px;
+}
+#top{
+  background-color: #D35400;
+}
+#third{
+  background-color: #223141;
+  margin-top: 20px;
+}
+#hh{
+  color:#D35400;
 }
 #contact {
   background: url(pexels-photo-2383010.jpeg) no-repeat;

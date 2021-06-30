@@ -74,3 +74,9 @@ $("#signup").click(function() {
     });
   });
   
+  $(document).ready(function() {
+    $("#log").click(function(q){
+      q.preventDefault();
+      window.location.href="../interest.html";
+    });
+  });
