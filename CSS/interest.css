@@ -32,22 +32,22 @@ display: inline-block;
 margin: 4px 2px;
 border-radius: 16px;
 }
-#courses1{
+#course1{
   display: none;
 }
- #courses2{
+ #course2{
   display: none;
  }
-  #courses3{
+  #course3{
     display: none;
   }
-   #courses4{
+   #course4{
     display: none;
    }
-    #courses5{
+    #course5{
       display: none;
     }
-     #courses6{
+     #course6{
   display: none;
 }
 .btn:hover{
