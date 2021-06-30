@@ -71,3 +71,15 @@ $(document).ready(function() {
         $("#ME").hide();
     })
 })
+$(document).ready(function() {
+    $("button#acc").click(function(q){
+        q.preventDefault();
+        $("#accounting").toggle();
+        $("#BA").hide();
+        $("#IT").hide();
+        $("#LA").hide();
+        $("#HE").hide();
+        $("#PD").hide();
+        $("#ME").hide();
+    })
+})
