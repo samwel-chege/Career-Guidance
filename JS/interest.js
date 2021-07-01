@@ -83,3 +83,27 @@ $(document).ready(function() {
         $("#ME").hide();
     })
 })
+$(document).ready(function() {
+    $("button#econ").click(function(q){
+        q.preventDefault();
+        $("#HE").toggle();
+        $("#BA").hide();
+        $("#IT").hide();
+        $("#LA").hide();
+        $("#accounting").hide();
+        $("#PD").hide();
+        $("#ME").hide();
+    })
+})
+$(document).ready(function() {
+    $("button#prods").click(function(q){
+        q.preventDefault();
+        $("#PD").toggle();
+        $("#BA").hide();
+        $("#IT").hide();
+        $("#LA").hide();
+        $("#accounting").hide();
+        $("#HE").hide();
+        $("#ME").hide();
+    })
+})
