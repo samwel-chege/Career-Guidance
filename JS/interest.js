@@ -42,8 +42,7 @@ $(document).ready(function() {
         $("#LA").hide();
         $("#accounting").hide();
         $("#HE").hide();
-        $("#PD").hide();
-        $("#ME").hide();
+        $("#MECH").hide();
     })
 })
 $(document).ready(function() {
@@ -54,8 +53,7 @@ $(document).ready(function() {
         $("#LA").hide();
         $("#accounting").hide();
         $("#HE").hide();
-        $("#PD").hide();
-        $("#ME").hide();
+        $("#MECH").hide();
     })
 })
 $(document).ready(function() {
@@ -66,8 +64,7 @@ $(document).ready(function() {
         $("#IT").hide();
         $("#accounting").hide();
         $("#HE").hide();
-        $("#PD").hide();
-        $("#ME").hide();
+        $("#MECH").hide();
     })
 })
 $(document).ready(function() {
@@ -78,8 +75,7 @@ $(document).ready(function() {
         $("#IT").hide();
         $("#LA").hide();
         $("#HE").hide();
-        $("#PD").hide();
-        $("#ME").hide();
+        $("#MECH").hide();
     })
 })
 $(document).ready(function() {
@@ -91,23 +87,21 @@ $(document).ready(function() {
         $("#IT").hide();
         $("#LA").hide();
         $("#accounting").hide();
-        $("#PD").hide();
-        $("#ME").hide();
+        $("#MECH").hide();
     })
 })
 
+  $(document).ready(function(){
 
-    $("button#MEC").click(function(q){
+    $("button#ENG").click(function(q){
         q.preventDefault();
-        $("#ME").toggle();
+        $("#MECH").toggle();
         $("#BA").hide();
         $("#IT").hide();
         $("#LA").hide();
         $("#HE").hide();
-        $("#PD").hide();
         $("#accounting").hide();
     })
 })
-
 
 
