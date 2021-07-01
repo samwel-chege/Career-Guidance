@@ -104,4 +104,10 @@ $(document).ready(function() {
     })
 })
 
+$(document).ready(function() {
+    $("#btn6").click(function(){
+       alert("ThankYou for your interest, we'll get back at you shortly");
+       window.location.href="../index.html";
+    })
+})
 
