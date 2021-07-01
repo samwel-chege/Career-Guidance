@@ -1,30 +1,4 @@
-
-/*$(document).ready(function() {
-    $("#courses").hide();
-    
-    $("#one").click(function() {
-        $(".courses1").toggle("slow");
-    });
-     $("#two").click(function() {
-        $(".courses2").toggle("slow");
-    });
-     $("#three").click(function() {
-        $(".courses3").toggle("slow");
-    });
-     $("#four").click(function() {
-        $(".courses4").toggle("slow");
-    });
-     $("#five").click(function() {
-        $(".courses5").toggle("slow");
-    });
-     $("#six").click(function() {
-        $(".courses6").toggle("slow");
-    });
-    
- });*/
-
-
- $(document).ready(function(){
+$(document).ready(function(){
      $("h3#one").click(function(q){
          q.preventDefault();
          $("#course1").toggle();
@@ -60,9 +34,80 @@ $(document).ready(function(){
         $("#course6").toggle();
     });
 });
- 
-// $(document).ready(function(){
-//     $("#six").click(function(){
-//         $("#courses6").show();
-//     })
-// })
+$(document).ready(function() {
+    $("button#itA").click(function(q){
+        q.preventDefault();
+        $("#IT").toggle();
+        $("#BA").hide();
+        $("#LA").hide();
+        $("#accounting").hide();
+        $("#HE").hide();
+        $("#MECH").hide();
+    })
+})
+$(document).ready(function() {
+    $("button#itB").click(function(q){
+        q.preventDefault();
+        $("#BA").toggle();
+        $("#IT").hide();
+        $("#LA").hide();
+        $("#accounting").hide();
+        $("#HE").hide();
+        $("#MECH").hide();
+    })
+})
+$(document).ready(function() {
+    $("button#itC").click(function(q){
+        q.preventDefault();
+        $("#LA").toggle();
+        $("#BA").hide();
+        $("#IT").hide();
+        $("#accounting").hide();
+        $("#HE").hide();
+        $("#MECH").hide();
+    })
+})
+$(document).ready(function() {
+    $("button#acc").click(function(q){
+        q.preventDefault();
+        $("#accounting").toggle();
+        $("#BA").hide();
+        $("#IT").hide();
+        $("#LA").hide();
+        $("#HE").hide();
+        $("#MECH").hide();
+    })
+})
+$(document).ready(function() {
+
+    $("button#econ").click(function(q){
+        q.preventDefault();
+        $("#HE").toggle();
+        $("#BA").hide();
+        $("#IT").hide();
+        $("#LA").hide();
+        $("#accounting").hide();
+        $("#MECH").hide();
+    })
+})
+
+  $(document).ready(function(){
+
+    $("button#ENG").click(function(q){
+        q.preventDefault();
+        $("#MECH").toggle();
+        $("#BA").hide();
+        $("#IT").hide();
+        $("#LA").hide();
+        $("#HE").hide();
+        $("#accounting").hide();
+    })
+})
+
+$(document).ready(function() {
+    $("#btn6").click(function(){
+       alert("ThankYou for your interest, we'll get back at you shortly");
+       window.location.href="../index.html";
+    })
+})
+
