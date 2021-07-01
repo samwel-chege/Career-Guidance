@@ -1,4 +1,4 @@
- $(document).ready(function(){
+$(document).ready(function(){
      $("h3#one").click(function(q){
          q.preventDefault();
          $("#course1").toggle();
@@ -34,7 +34,6 @@ $(document).ready(function(){
         $("#course6").toggle();
     });
 });
- 
 $(document).ready(function() {
     $("button#itA").click(function(q){
         q.preventDefault();
@@ -84,6 +83,7 @@ $(document).ready(function() {
     })
 })
 $(document).ready(function() {
+
     $("button#econ").click(function(q){
         q.preventDefault();
         $("#HE").toggle();
@@ -95,15 +95,19 @@ $(document).ready(function() {
         $("#ME").hide();
     })
 })
-$(document).ready(function() {
-    $("button#prods").click(function(q){
+
+
+    $("button#MEC").click(function(q){
         q.preventDefault();
-        $("#PD").toggle();
+        $("#ME").toggle();
         $("#BA").hide();
         $("#IT").hide();
         $("#LA").hide();
-        $("#accounting").hide();
         $("#HE").hide();
-        $("#ME").hide();
+        $("#PD").hide();
+        $("#accounting").hide();
     })
 })
+
+
+
