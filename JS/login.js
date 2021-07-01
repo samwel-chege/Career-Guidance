@@ -80,3 +80,26 @@ $("#signup").click(function() {
       window.location.href="../interest.html";
     });
   });
+  var Fname1;
+function Name(name1,name2) {
+  this.Firstname=name1;
+  this.Lastname=name2;
+}
+Name.prototype.fullname= function(){
+  return this.Firstname + " " + this.Lastname;
+}
+$(document).ready(function(){
+  $("#signInn").click(function(event){
+    event.preventDefault();
+    var Fname=$("input#firstname").val();
+    var Lname=$("input#lastname").val();
+    var mail=$("input#email").val();
+    var Pass=$("input#password").val();
+    var Cpass=$("input#Cpassword").val();
+    var newperson = new Name (Fname,Lname);
+    window.location.href="../interest.html"
+    Fname1 = newperson.fullname();
+    $("#namess").append(Fname1);
+    $("#sasasa").append(Fname1);
+  });
+});
