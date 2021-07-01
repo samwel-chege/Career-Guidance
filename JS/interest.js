@@ -34,9 +34,65 @@ $(document).ready(function(){
         $("#course6").toggle();
     });
 });
+$(document).ready(function() {
+    $("button#itA").click(function(q){
+        q.preventDefault();
+        $("#IT").toggle();
+        $("#BA").hide();
+        $("#LA").hide();
+        $("#accounting").hide();
+        $("#HE").hide();
+        $("#PD").hide();
+        $("#ME").hide();
+    })
+})
+$(document).ready(function() {
+    $("button#itB").click(function(q){
+        q.preventDefault();
+        $("#BA").toggle();
+        $("#IT").hide();
+        $("#LA").hide();
+        $("#accounting").hide();
+        $("#HE").hide();
+        $("#PD").hide();
+        $("#ME").hide();
+    })
+})
+$(document).ready(function() {
+    $("button#itC").click(function(q){
+        q.preventDefault();
+        $("#LA").toggle();
+        $("#BA").hide();
+        $("#IT").hide();
+        $("#accounting").hide();
+        $("#HE").hide();
+        $("#PD").hide();
+        $("#ME").hide();
+    })
+})
+$(document).ready(function() {
+    $("button#acc").click(function(q){
+        q.preventDefault();
+        $("#accounting").toggle();
+        $("#BA").hide();
+        $("#IT").hide();
+        $("#LA").hide();
+        $("#HE").hide();
+        $("#PD").hide();
+        $("#ME").hide();
+    })
+})
+$(document).ready(function() {
+    $("button#MEC").click(function(q){
+        q.preventDefault();
+        $("#ME").toggle();
+        $("#BA").hide();
+        $("#IT").hide();
+        $("#LA").hide();
+        $("#HE").hide();
+        $("#PD").hide();
+        $("#accounting").hide();
+    })
+})
 
-// $(document).ready(function(){
-//     $("#six").click(function(){
-//         $("#courses6").show();
-//     })
-// })
+
