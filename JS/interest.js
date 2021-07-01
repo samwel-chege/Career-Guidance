@@ -83,6 +83,20 @@ $(document).ready(function() {
     })
 })
 $(document).ready(function() {
+
+    $("button#econ").click(function(q){
+        q.preventDefault();
+        $("#HE").toggle();
+        $("#BA").hide();
+        $("#IT").hide();
+        $("#LA").hide();
+        $("#accounting").hide();
+        $("#PD").hide();
+        $("#ME").hide();
+    })
+})
+
+
     $("button#MEC").click(function(q){
         q.preventDefault();
         $("#ME").toggle();
@@ -93,6 +107,6 @@ $(document).ready(function() {
         $("#PD").hide();
         $("#accounting").hide();
     })
-})
+
 
 

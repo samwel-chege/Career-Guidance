@@ -223,6 +223,24 @@ body{
   background-color: #223141;
   margin-top: 20px;
 }
+#IT {
+  display: none;
+}
+#BA {
+  display: none;
+}
+#ME {
+  display: none;
+}
+#LA {
+  display: none;
+}
+#accounting {
+  display: none;
+}
+#HE {
+  display: none;
+}
 #hh{
   color:#D35400;
 }
