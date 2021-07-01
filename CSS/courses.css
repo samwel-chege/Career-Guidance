@@ -28,7 +28,11 @@ body{
     background-color: #D35400;
 }
 
-#start, #aagg{
+#ME{
+  display: none;
+}
+
+#start{
     background-color: #C7B6B6 ;
     margin-top: 20px;
 }
@@ -37,23 +41,23 @@ body{
     font-size: 30px;
     font-family: 'Oswald', sans-serif;
 }
-#specific, #lalala{
+#specific{
     color: #D35400;
 }
 .card-title{
     font-weight: 800;
 }
-#second, #kadi{
+#second{
     background-color: #D5DBDB;
     margin-top: 20px;
 }
-#top, #kudos{
+#top{
     background-color: #D35400;
 }
-#third, #tatu{
+#third{
     background-color: #223141;
     margin-top: 20px;
 }
-#hh, #ksks{
+#hh{
     color:#D35400;
 }
