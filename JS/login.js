@@ -97,7 +97,7 @@ $(document).ready(function(){
     var Pass=$("input#password").val();
     var Cpass=$("input#Cpassword").val();
     var newperson = new Name (Fname,Lname);
-    window.location.href="../interest.html"
+    window.location.href="interest.html"
     Fname1 = newperson.fullname();
     $("#namess").append(Fname1);
     $("#sasasa").append(Fname1);
